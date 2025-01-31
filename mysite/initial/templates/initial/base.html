@@ -1,9 +1,16 @@
 <html>
     <head>
-        <title>Ace's Website</title>
+        <title>{% block title %}Ace's Website{% endblock %}</title>
     </head>
 
     <body>
-        <p>Base Template</p>
+        <div id="content", name="content">
+            {% block content %}
+
+            {% endblock %}
+
+        </div>
+            
+
     </body>
 </html>
